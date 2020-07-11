@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #484848;
+    font-size: 14px;
+    font-family: Circular,"Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-image: url("images/icon.jpg");
+}
+
+body .container {
+    max-width: 1000px;
+    margin: 30px auto;
+}
