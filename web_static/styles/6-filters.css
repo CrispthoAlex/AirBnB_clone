@@ -1,0 +1,83 @@
+.container .filters {
+    background-color: white;
+    height: 70px;
+    width: 100%;
+    margin: 30px;
+    border: 1px #DDDDDD solid;
+    border-radius: 4px;
+}
+
+.locations, .amenities {
+    height: 100%;
+    width: 25%;
+    float: left;
+    display: inline-block; /* Define dropdown */
+}
+
+.filters div:first-child { /* <-- .locations */
+    border-right: 1px solid #DDDDDD;
+}
+
+.filters div h3 {
+    font-weight: 600;
+    padding-left: 14px;
+    padding-top: 12px;
+}
+
+.filters div h4 {
+    font-weight: 400;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-left: 14px;
+}
+
+.filters div .popover {
+    /*width: inherit;*/
+    border: 1px #DDDDDD solid;
+    border-radius: 4px;
+    background-color: #FAFAFA;
+    position: relative;
+    margin-top: 17px;
+    padding: 20px 0 20px 20px;
+    display: none;
+    /*z-index: 1;*/
+}
+
+.locations:hover .popover, .amenities:hover .popover {
+    display: block;
+}
+
+ul {
+    list-style: none;
+}
+
+.filters li {
+    margin-left: 15px;
+    padding-bottom: 5px;
+}
+
+.filters div ul.popover h2 {
+    padding-bottom: 5px;
+    font-size: 16px;
+}
+
+
+/* Button's Declaration block */
+.filters button {
+    background-color: #FF5A5F;
+    font-size: 18px;
+    color: #FFFFFF;
+    height: 48px;
+    width: 20%;
+    border: 0;
+    border-radius: 4px;
+    float: right;
+    margin-right: 30px;
+    position: relative;
+    top: 15%;
+}
+
+.filters button:hover {
+    opacity: 0.9;
+/*90% when the mouse is on the button*/
+} /* End Button's Declaration block */
