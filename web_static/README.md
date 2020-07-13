@@ -35,3 +35,10 @@ During this project, you will learn how to manipulate HTML and CSS languages. HT
 * center boxes
 
 # [More Info](https://youtu.be/nvT22fR9euk)
+
+#### Follow me
+
+## Crispthofer Alexander Rincon Murrain
+#### [Twitter](https://twitter.com/CrispthoAlex)
+#### [GitHub](https://github.com/CrispthoAlex/)
+#### [LinkedIn](https://www.linkedin.com/in/carmurrain/)
